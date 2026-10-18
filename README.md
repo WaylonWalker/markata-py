@@ -1,3 +1,5 @@
+> **Python implementation — transitioning to `markata-py`.** This repository contains the original Python Markata, **not** the Go implementation becoming the official Markata 1.0. The planned home for this historical code is [WaylonWalker/markata-py](https://github.com/WaylonWalker/markata-py). The Go project is currently at [WaylonWalker/markata-go](https://github.com/WaylonWalker/markata-go) and will move to `WaylonWalker/markata` in the coordinated cutover. See [the naming transition guide](docs/name-transition.md) before changing installs or URLs. The Python `markata` import, configuration, existing PyPI 0.x releases and Git history are not being replaced by this notice.
+
 <h1 align=center>
   <br>
   <a href="https://github.com/WaylonWalker/markata"><img src="https://user-images.githubusercontent.com/22648375/167527193-4e66d537-e78f-44dd-be65-2c1c109adf34.png" alt="Markata" width="400"></a>
