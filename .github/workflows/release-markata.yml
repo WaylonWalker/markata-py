@@ -1,11 +1,10 @@
 name: Release Markata
 
+# Explicit-only publishing during the Python -> markata-py repository
+# handoff. Never publish to the historical PyPI "markata" name just because
+# package metadata or repository links change.
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - "markata/**"
-      - "pyproject.toml"
 
 env:
   HATCH_INDEX_USER: __token__
@@ -13,6 +12,8 @@ env:
 
 jobs:
   release-markata:
+    # Require the dedicated Python repository before manual legacy releases.
+    if: github.repository == 'WaylonWalker/markata-py'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
