@@ -99,8 +99,8 @@ pyinstrument = ["pyinstrument"]
 [project.urls]
 Homepage = "https://markata.dev"
 Changelog = "https://markata.dev/CHANGELOG/"
-Source = "https://github.com/waylonwalker/markata"
-Issues = "https://github.com/waylonwalker/markata/issues"
+Source = "https://github.com/WaylonWalker/markata-py"
+Issues = "https://github.com/WaylonWalker/markata-py/issues"
 Documentation = "https://markata.dev"
 
 [project.scripts]

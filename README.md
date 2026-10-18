@@ -2,7 +2,7 @@
 
 <h1 align=center>
   <br>
-  <a href="https://github.com/WaylonWalker/markata"><img src="https://user-images.githubusercontent.com/22648375/167527193-4e66d537-e78f-44dd-be65-2c1c109adf34.png" alt="Markata" width="400"></a>
+  <a href="https://github.com/WaylonWalker/markata-py"><img src="https://user-images.githubusercontent.com/22648375/167527193-4e66d537-e78f-44dd-be65-2c1c109adf34.png" alt="Markata" width="400"></a>
 </h1>
 
 <p align=center>
@@ -99,5 +99,5 @@ project for me, and it has grown into something I use every day.
 ## Examples Gallary
 
 Markata has a project gallery to show off sites built with markata. Please
-[submit](https://github.com/WaylonWalker/markata/issues/78) yours, and check
+[submit](https://github.com/WaylonWalker/markata-py/issues/78) yours, and check
 out the [project-gallery](http://markata.dev/project-gallery/) for inspiration.
